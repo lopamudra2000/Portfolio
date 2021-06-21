@@ -77,7 +77,7 @@ export default function AboutSection() {
       <div className="container">
         <div className="aboutSection__left">
           <Titles subheading="Who I am?" heading="About Me" />
-          {/* <PText>Website developer.</PText> */}
+          <PText>Website developer.</PText>
           <div className="aboutSection__buttons">
             <Button btnText="Projects" btnLink="/projects" />
             <Button btnText="Read All" btnLink="/aboutme" outline />
