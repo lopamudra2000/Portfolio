@@ -73,14 +73,12 @@ const HeroStyles = styled.div`
     .hero__info {
       margin-top: 3rem;
     }
-    .hero__social {
+    .hero__social,
+    .hero__social__logo {
+      bottom: 5rem;
+      width: 50px;
       left: 0px;
-      bottom: -15%;
-      width: 20px;
-      .hero__social__logo {
-        width: 20px;
-        max-height: 22px;
-      }
+      padding: 10px;
     }
   }
 `;
