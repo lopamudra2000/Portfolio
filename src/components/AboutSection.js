@@ -16,7 +16,7 @@ const AboutSectionStyles = styled.div`
   .aboutSection__left,
   .aboutSection__right {
     flex: 1;
-    /* color: var(--white); */
+    color: va;
   }
   .section-title {
     text-align: left;
@@ -77,10 +77,12 @@ export default function AboutSection() {
       <div className="container">
         <div className="aboutSection__left">
           <Titles subheading="Who I am?" heading="About Me" />
-          <PText>Website developer.</PText>
+          <PText>
+            I am a freelance website developer from Sambalpur, Odisha.
+          </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Projects" btnLink="/projects" />
-            <Button btnText="Read All" btnLink="/aboutme" outline />
+            <Button btnText="Read All" btnLink="/about" outline />
           </div>
         </div>
         <div className="aboutSection__right">

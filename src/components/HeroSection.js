@@ -1,7 +1,7 @@
 import React from 'react';
 // import { BrowserRouter, Link } from 'react-router-dom';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/about-sec-img.svg';
+import HeroImg from '../assets/images/about-sec-img1.svg';
 import Button from './Button';
 import PText from './PText';
 import gitlogo from '../assets/images/github.png';
@@ -20,7 +20,7 @@ const HeroStyles = styled.div`
   }
   .hero__heading {
     font-size: 2rem;
-    margin-bottom: -2rem;
+    margin-bottom: -3rem;
     position: relative;
     span {
       padding-top: 25px;
@@ -28,7 +28,7 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-size: 5rem;
+      font-size: 7rem;
       font-family: 'Montserrat SemiBold';
       color: var(--deep-dark);
     }
@@ -50,10 +50,10 @@ const HeroStyles = styled.div`
     flex-direction: column;
     gap: 2rem;
     position: absolute;
-    bottom: 20px;
+    bottom: 15rem;
     width: 50px;
     left: 20px;
-    padding: 10px;
+    padding: 5px;
     margin: 1rem;
   }
 
@@ -63,7 +63,7 @@ const HeroStyles = styled.div`
     }
     .hero__heading {
       font-size: 1.4rem;
-      margin-bottom: -3rem;
+      margin-bottom: -2rem;
       .hero__name {
         font-size: 4.5rem;
       }
@@ -78,8 +78,8 @@ const HeroStyles = styled.div`
     .hero__social__logo {
       bottom: 5rem;
       width: 50px;
-      left: 0px;
-      padding: 10px;
+      left: 1px;
+      padding: 5px;
     }
   }
 `;

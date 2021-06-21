@@ -22,12 +22,12 @@ const ButtonStyle = styled.div`
 `;
 
 export default function Button({
-  btnLink = '#',
-  btnText = 'BUTTON',
+  btnLink = '',
+  btnText = '',
   outline = false,
 }) {
   return (
-    <ButtonStyle outline={outline}>
+    <ButtonStyle outline={outline} className="button-wrapper">
       <BrowserRouter>
         <Link className="button" to={btnLink}>
           {btnText}

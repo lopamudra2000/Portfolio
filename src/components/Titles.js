@@ -12,6 +12,7 @@ const SectionTitleStyle = styled.div`
     font-size: 6rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
+    color: #ff8080;
   }
   @media only screen and (max-width: 768px) {
     text-align: center;
@@ -19,6 +20,7 @@ const SectionTitleStyle = styled.div`
       font-size: 1.2rem;
     }
     h2 {
+      color: #ff8080;
       font-size: 3.6rem;
     }
   }
