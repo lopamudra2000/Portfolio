@@ -1,7 +1,7 @@
 import React from 'react';
 // import { BrowserRouter, Link } from 'react-router-dom';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/about-sec-img.jpeg';
+import HeroImg from '../assets/images/about-sec-img.svg';
 import Button from './Button';
 import PText from './PText';
 import gitlogo from '../assets/images/github.png';
@@ -13,17 +13,17 @@ const HeroStyles = styled.div`
     min-height: 1000px;
     width: 100%;
     text-align: center;
-    display: fles;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
   }
   .hero__heading {
     font-size: 2rem;
-    margin-bottom: -3rem;
+    margin-bottom: -2rem;
     position: relative;
     span {
-      padding-top: 35px;
+      padding-top: 25px;
       display: inline-block;
       width: 100%;
     }
@@ -36,9 +36,10 @@ const HeroStyles = styled.div`
   .hero__img {
     max-width: 900px;
     width: 100%;
-    height: 800px;
+    height: 500px;
     margin: 0 auto;
     border: 2px solid var(--gray-1);
+    border-bottom: none;
   }
   .hero__info {
     margin-top: -18rem;

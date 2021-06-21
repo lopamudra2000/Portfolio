@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import HeroSection from './components/HeroSection';
 import NavbarMenu from './components/NavbarMenu';
 import Aboutme from './pages/Aboutme';
 import Contact from './pages/Contact';
@@ -33,7 +32,6 @@ export default function App() {
           </Route>
         </Switch>
       </Router>
-      <HeroSection />
     </>
   );
 }
