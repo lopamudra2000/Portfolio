@@ -79,8 +79,7 @@ export default function AboutSection() {
           <Titles subheading="Who I am?" heading="About Me" />
           <PText>WEB DEVELOPER || OPEN SOURCE CONTRIBUTOR.</PText>
           <div className="aboutSection__buttons">
-            <Button btnText="Projects" btnLink="/projects" />
-            <Button btnText="Read All" btnLink="/about" outline />
+            <Button btnText="Read all" btnLink="/aboutme" outline />
           </div>
         </div>
         <div className="aboutSection__right">

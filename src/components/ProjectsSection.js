@@ -14,7 +14,6 @@ const ProjectSectionStyle = styled.div`
   }
   .project__button {
     text-align: center;
-    padding: 20px;
   }
   @media only screen and (max-width: 768px) {
     .projects__allItems {
@@ -25,6 +24,15 @@ const ProjectSectionStyle = styled.div`
       gap: 5rem;
       .projectItem__img {
         width: 100%;
+      }
+    }
+    .project__button {
+      flex-direction: column;
+      gap: 0rem;
+      .button-wrapper,
+      a {
+        width: 100%;
+        text-align: center;
       }
     }
   }
@@ -48,7 +56,7 @@ export default function ProjectsSection() {
           ))}
         </div>
         <div className="project__button">
-          <Button btnLink="/projects" btnText="View All" outline />
+          <Button btnLink="/projects" btnText="View All" />
         </div>
       </div>
     </ProjectSectionStyle>
