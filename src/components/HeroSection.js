@@ -117,7 +117,7 @@ export default function HeroSection() {
                 <li>
                   {/* <img src={gitlogo} alt="git logo" /> */}
                   <a
-                    href="https://github.com/lopamudra2000/"
+                    href="https://www.linkedin.com/in/lopamudra-giri-8b9672190/"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -77,9 +77,7 @@ export default function AboutSection() {
       <div className="container">
         <div className="aboutSection__left">
           <Titles subheading="Who I am?" heading="About Me" />
-          <PText>
-            I am a freelance website developer from Sambalpur, Odisha.
-          </PText>
+          <PText>WEB DEVELOPER || OPEN SOURCE CONTRIBUTOR.</PText>
           <div className="aboutSection__buttons">
             <Button btnText="Projects" btnLink="/projects" />
             <Button btnText="Read All" btnLink="/about" outline />
