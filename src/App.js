@@ -18,17 +18,17 @@ export default function App() {
           </Route>
         </Switch>
         <Switch>
-          <Route path="/aboutme">
+          <Route exact path="/aboutme">
             <Aboutme />
           </Route>
         </Switch>
         <Switch>
-          <Route path="/projects">
+          <Route exact path="/projects">
             <Project />
           </Route>
         </Switch>
         <Switch>
-          <Route path="/contact">
+          <Route exact path="/contact">
             <Contact />
           </Route>
         </Switch>

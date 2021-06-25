@@ -112,8 +112,8 @@ export default function NavbarMenu() {
         </div>
         <li>
           <NavLink
-            exact
             to="/"
+            exact
             onClick={() => SetOpenNav(!openNav)}
             role="button"
             onKeyDown={() => SetOpenNav(!openNav)}

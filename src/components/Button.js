@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const ButtonStyle = styled.div`
@@ -28,11 +28,11 @@ export default function Button({
 }) {
   return (
     <ButtonStyle outline={outline} className="button-wrapper">
-      <BrowserRouter>
-        <Link className="button" to={btnLink}>
-          {btnText}
-        </Link>
-      </BrowserRouter>
+      {/* <BrowserRouter> */}
+      <Link className="button" to={btnLink}>
+        {btnText}
+      </Link>
+      {/* </BrowserRouter> */}
     </ButtonStyle>
   );
 }

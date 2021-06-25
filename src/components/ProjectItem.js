@@ -5,7 +5,6 @@ import ProjectImg from '../assets/images/ProjectImg.svg';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
-    width: 33%;
     height: 300px;
     border-radius: 12px;
     overflow: hidden;
@@ -16,7 +15,6 @@ const ProjectItemStyles = styled.div`
     }
   }
   .projectItem__info {
-    width: 33%;
     margin-top: 1rem;
     background-color: var(--deep-dark);
     padding: 1rem;
